@@ -17,7 +17,7 @@ permalink:           pretty
 # Setup
 title:               Modern Clinical Data Science
 description:         "Modern Clinical Data Science is a pilot course for fellows at the Icahn School of Medicine at Mount Sinai, created and taught by Professor Bethany Percha."
-url:                 http://www.cindygao.com
+url:                 http://c1ndygao.github.io/mcds
 paginate:            5
 paginate_path:       "/blog/page:num/"
 gems:		     [jekyll-paginate, jekyll-gist]
