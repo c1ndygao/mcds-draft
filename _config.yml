@@ -1,0 +1,11 @@
+name: Modern Clinical Data Science
+markdown: kramdown
+
+
+# Setup
+title:               Modern Clinical Data Science
+description:         A course for physicians interested in using data science in their research and practice
+url:                 http://mcds.github.io/
+paginate:            5
+paginate_path:       "/blog/page:num/"
+gems:		     [jekyll-paginate, jekyll-gist]
