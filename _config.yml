@@ -1,13 +1,29 @@
-name: Modern Clinical Data Science
-markdown: kramdown
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
 
+# Kramdown options. See http://kramdown.gettalong.org/options.html.
+kramdown:
+  input: GFM
+  hard_wrap: false
+  coderay_line_numbers: nil
+  toc_levels: "1,2,3"
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
 # Setup
 title:               Modern Clinical Data Science
-description:         A course for physicians interested in using data science in their research and practice
-url:                 http://mcds.github.io/
+description:         "Modern Clinical Data Science is a pilot course for fellows at the Icahn School of Medicine at Mount Sinai, created and taught by Professor Bethany Percha."
+url:                 http://www.cindygao.com
 paginate:            5
 paginate_path:       "/blog/page:num/"
 gems:		     [jekyll-paginate, jekyll-gist]
 
-theme: jekyll-theme-minimal
+# About/contact
+author:
+  name:              Beth Percha
+  url:               https://www.mountsinai.org/profiles/bethany-percha
+  email:             bethany.percha@mssm.edu
